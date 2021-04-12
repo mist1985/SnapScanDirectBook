@@ -17,6 +17,7 @@ driver.implicitly_wait(2)
 
 driver.get("http://alpha-imed.sorsix.com/")
 
+#Redosled za testiranje
 
 procedure = HomePage(driver)
 procedure.click_on_procedure()
